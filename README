@@ -4,4 +4,4 @@ TabController: This works similar to UITabViewController in cocoa.
 NavigationController: Similar to UINavigationController
 BreadcrumbView: Similar to UINavigationBarView in functionality but looks like a clickable breadcrumb.
 
-Licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">creative commons attribution share alike license</a> by Rafael Vega <rvega@elsoftwarehamuerto.org>
+Licensed under a [http://creativecommons.org/licenses/by-sa/3.0/](http://creativecommons.org/licenses/by-sa/3.0/) by Rafael Vega <rvega@elsoftwarehamuerto.org>
