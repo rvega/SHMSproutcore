@@ -65,6 +65,13 @@ SHM.ViewController = {
   populate: function(){},
 
   /**
+    Sent by navigation controller when the controller is about to be removed from the navigation stack
+
+    @returns null 
+  */
+  willDissappear: function(){},
+
+  /**
     This method is called by NavigationController and other objects that instantiate ViewControllers, If you're
     instantiating manually, you should call this method
 

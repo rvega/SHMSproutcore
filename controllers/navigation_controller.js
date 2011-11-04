@@ -87,6 +87,8 @@ SHM.NavigationController = SC.Object.extend(
         var controllerPath = this.get('_controllers')[l-1].get('path');
         controllerPath = controllerPath.split('.');
         controllerPath = controllerPath[controllerPath.length-1];
+        var controller = this.get(controllerPath);
+        controller.willDissappear();
         this.set(controllerPath, undefined);
 
         this.view.breadcrumb.pop();
